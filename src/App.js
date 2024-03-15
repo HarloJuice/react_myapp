@@ -3,6 +3,7 @@ import React from'react';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import HelloWorld from './components/helloworld';
 import AllSuper from './components/testcomponent';
+import ImageGallery from './pages/images';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HelloWorld />} />
           <Route path="/test" element={<AllSuper />} />
+          <Route path="/gallery" element={<ImageGallery />} />
         </Routes>
       </BrowserRouter>
     </div>

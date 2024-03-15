@@ -1,7 +1,14 @@
 import React from 'react';
+import ImageGallery from '../components/ImageGallery';
 
-const images = () => {
+const Images = () => {
     return (
-        <h1>Сторінка для зображень</h1>
+        <div>
+            <h1>Сторінка для зображень</h1><hr />
+            <ImageGallery />
+        </div>
+        
     )
 }
+
+export default Images;
