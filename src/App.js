@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import HelloWorld from './components/helloworld';
 import AllSuper from './components/testcomponent';
 import ImageGallery from './pages/images';
-import 
+ 
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
     </div>
 
   );
-  
+
   
 }
 
