@@ -10,6 +10,7 @@ function importAll(r) {
 const images = importAll(require.context('../../public/images', false, /\.(png|jpe?g|svg)$/));
 
 const MyComponent = () => {
+  
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);

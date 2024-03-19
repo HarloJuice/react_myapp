@@ -1,11 +1,13 @@
 import React from 'react';
-import ImageGallery from '../components/ImageGallery';
+import MyComponent from '../components/ImageComponent';
+import MenuComponent from '../components/menuComponent';
 
 const Images = () => {
     return (
         <div>
+            <MenuComponent />
             <h1>Сторінка для зображень</h1><hr />
-            <ImageGallery />
+            <MyComponent />
         </div>
         
     )
