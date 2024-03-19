@@ -6,7 +6,7 @@ const Images = () => {
     return (
         <div>
             <MenuComponent />
-            <h1>Сторінка для зображень</h1><hr />
+            <h1>Сторінка для зображень</h1>
             <MyComponent />
         </div>
         
